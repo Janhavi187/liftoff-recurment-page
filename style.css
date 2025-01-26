@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9e0e9;
+    
+    
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 25px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-top: 10px solid rgb(109, 36, 186);
+  }
+  .containerone{
+      max-width: 600px;
+    margin: 25px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+   
+
+
+  }
+ 
+
+  .header {
+    text-align: start;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .header h1 {
+      text-align: start;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+   
+     
+  }
+
+  .header p {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .header a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .header a:hover {
+    text-decoration: underline;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  .required {
+    color: red;
+    margin-left: 5px;
+  }
+
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+
+  .radio-group label {
+    font-weight: normal;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #80868d;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+  }
+  .submit{
+      margin-left:30%;
+      background-color: #fff;
+      color: rgb(118, 23, 202);
+      
+
+  }
+  .submit1{
+      margin-left: 30%;
+      background-color: #e9e0e9 ;
+      color: rgb(118, 23, 202) ;
+  }
